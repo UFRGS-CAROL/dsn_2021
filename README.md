@@ -49,7 +49,6 @@ The codes used in this paper are from:
 @INPROCEEDINGS{ipdps2021,
     author={Fernando Fernandes dos Santos and 
             Josie E. Rodriguez Condia and 
-            Pedro Martins Basso and
             Luigi Carro and 
             Matteo Sonza Reorda and
             Paolo Rech},
