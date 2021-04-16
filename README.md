@@ -52,8 +52,6 @@ The codes used in this paper are from:
             Luigi Carro and 
             Matteo Sonza Reorda and
             Paolo Rech},
-    booktitle={35th IEEE International Parallel & 
-            Distributed Processing Symposium {IPDPS}},
     title={51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
     year={2021},
     month={June}
