@@ -46,7 +46,7 @@ The codes used in this paper are from:
 ## Citing
 
 ```bibtex
-@INPROCEEDINGS{ipdps2021,
+@INPROCEEDINGS{dsn2021,
     author={Fernando Fernandes dos Santos and 
             Josie E. Rodriguez Condia and 
             Luigi Carro and 
