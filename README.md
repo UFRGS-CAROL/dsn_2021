@@ -22,11 +22,8 @@ notebook with the data.
 
 The data is divided in the following categories:
 
-- [FlexGripPlus microbenchmarks statistical distribution](flexgripplus_distribution.ipynb)
-- [Benchmarks Architectural Vulnerability Factor](benchmarks_avf.ipynb)
-
-### How data was used in the paper
-
+- [FlexGripPlus microbenchmarks error distribution](microbenchmarks_relative_error.ipynb)
+- [Profiling and Architectural Vulnerability Factor](profile_and_avf.ipynb)
 
 ## Used frameworks and codes
 
