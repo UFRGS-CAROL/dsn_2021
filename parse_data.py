@@ -52,4 +52,3 @@ for precision in ["int", "float"]:
 
 
 final_df = pd.DataFrame(final_list)
-print(final_df)

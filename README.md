@@ -23,7 +23,7 @@ notebook with the data.
 The data is divided in the following categories:
 
 - [FlexGripPlus microbenchmarks error distribution](microbenchmarks_relative_error.ipynb)
-- [Profiling and Architectural Vulnerability Factor](profile_and_avf.ipynb)
+- [Profiling and Architectural/Program Vulnerability Factor](profile_and_avf.ipynb)
 
 ## Used frameworks and codes
 
