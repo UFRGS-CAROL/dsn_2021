@@ -1,83 +1,83 @@
-unit,data type,Instruction,input,Faults injected,SDC total,SDC individual,SDC multiple,Hang,Silent
-Execution unit,Floating,FADD,Small,13575,553,553,0,0,13022
-Execution unit,Floating,FADD,Common,13575,703,703,0,0,12872
-Execution unit,Floating,FADD,Big,13575,687,687,0,0,12888
-Execution unit,Floating,FMUL,Small,9540,443,443,0,0,9540
-Execution unit,Floating,FMUL,Common,9540,459,459,0,0,9081
-Execution unit,Floating,FMUL,Big,9540,368,368,0,0,9172
-Execution unit,Floating,FMAD,Small,18735,471,471,0,22,18242
-Execution unit,Floating,FMAD,Common,18735,385,385,0,0,18350
-Execution unit,Floating,FMAD,Big,18735,746,746,0,0,17989
-Execution unit,Integer,IADD,Small,1857,394,394,0,120,1343
-Execution unit,Integer,IADD,Common,1857,392,392,0,120,1345
-Execution unit,Integer,IADD,Big,1857,391,391,0,120,1346
-Execution unit,Integer,IMUL,Small,1857,225,225,0,120,1497
-Execution unit,Integer,IMUL,Common,1857,225,225,0,120,1497
-Execution unit,Integer,IMUL,Big,1857,225,225,0,120,1497
-Execution unit,Integer,IMAD,Small,2232,602,602,0,120,1510
-Execution unit,Integer,IMAD,Common,2232,291,291,0,120,1821
-Execution unit,Integer,IMAD,Big,2232,602,602,0,120,1510
-Execution unit,Integer,FSIN,small,6842,1442,855,587,64,5336
-Execution unit,Integer,FSIN,med,6842,1440,854,586,64,4618
-Execution unit,Integer,FSIN,big,6842,1365,825,540,64,5336
-Execution unit,Integer,FEXP,small,6842,1718,909,809,64,4715
-Execution unit,Integer,FEXP,med,6842,1728,912,816,64,4715
-Execution unit,Integer,FEXP,big,6842,1714,919,795,64,5493
-Execution unit,Integer,Load,mem,0,0,0,0,0,0
-Execution unit,Integer,Store,mem,0,0,0,0,0,0
-Scheduler unit,Floating,FADD,Small,7290,14,5,9,34,13022
-Scheduler unit,Floating,FADD,Common,7290,14,5,9,34,12872
-Scheduler unit,Floating,FADD,Big,7290,14,5,9,34,12888
-Scheduler unit,Floating,FMUL,Small,7290,11,4,7,32,9540
-Scheduler unit,Floating,FMUL,Common,7290,11,4,7,32,9081
-Scheduler unit,Floating,FMUL,Big,7290,11,4,7,32,9172
-Scheduler unit,Floating,FMAD,Small,7290,8,3,5,0,18242
-Scheduler unit,Floating,FMAD,Common,7290,8,4,4,33,18350
-Scheduler unit,Floating,FMAD,Big,7290,8,3,5,33,17989
-Scheduler unit,Integer,IADD,Small,7290,103,36,67,44,1343
-Scheduler unit,Integer,IADD,Common,7290,103,36,67,44,1345
-Scheduler unit,Integer,IADD,Big,7290,103,36,67,44,1346
-Scheduler unit,Integer,IMUL,Small,7290,106,32,74,47,1497
-Scheduler unit,Integer,IMUL,Common,7290,106,32,74,47,1497
-Scheduler unit,Integer,IMUL,Big,7290,106,32,74,47,1497
-Scheduler unit,Integer,IMAD,Small,7290,96,30,66,40,1510
-Scheduler unit,Integer,IMAD,Common,7290,102,30,72,40,1821
-Scheduler unit,Integer,IMAD,Big,7290,97,30,67,40,1510
-Scheduler unit,Integer,FSIN,small,9138,42,21,21,37,5336
-Scheduler unit,Integer,FSIN,med,9138,42,21,21,37,4618
-Scheduler unit,Integer,FSIN,big,9138,42,21,21,37,5336
-Scheduler unit,Integer,FEXP,small,9138,67,31,36,37,4715
-Scheduler unit,Integer,FEXP,med,9138,67,31,36,37,4715
-Scheduler unit,Integer,FEXP,big,9138,67,31,36,37,5493
-Scheduler unit,Integer,Load,mem,9138,77,37,40,44,0
-Scheduler unit,Integer,Store,mem,9138,77,55,22,44,0
-Scheduler unit,Integer,BRANCH,mem,9138,39,24,53,77,
-Scheduler unit,Integer,ISET,mem,9138,39,32,30,77,
-pipeline,Floating,FADD,Small,43796,666,338,328,107,
-pipeline,Floating,FADD,Common,43796,666,314,352,107,
-pipeline,Floating,FADD,Big,43796,665,302,363,107,
-pipeline,Floating,FMUL,Small,43796,435,202,233,119,
-pipeline,Floating,FMUL,Common,43796,665,365,300,119,
-pipeline,Floating,FMUL,Big,43796,651,351,300,119,
-pipeline,Floating,FMAD,Small,43796,691,343,348,118,
-pipeline,Floating,FMAD,Common,43796,689,342,347,118,
-pipeline,Floating,FMAD,Big,43796,683,347,336,118,
-pipeline,Integer,IADD,Small,43796,690,207,481,815,
-pipeline,Integer,IADD,Common,43796,664,185,479,815,
-pipeline,Integer,IADD,Big,43796,665,185,480,815,
-pipeline,Integer,IMUL,Small,43796,328,96,232,823,
-pipeline,Integer,IMUL,Common,43796,328,96,232,823,
-pipeline,Integer,IMUL,Big,43796,568,145,423,825,
-pipeline,Integer,IMAD,Small,43796,531,158,370,814,
-pipeline,Integer,IMAD,Common,43796,508,138,370,814,
-pipeline,Integer,IMAD,Big,43796,403,137,266,816,
-pipeline,Integer,FSIN,small,24000,403,129,274,824,
-pipeline,Integer,FSIN,med,17638,394,96,298,884,
-pipeline,Integer,FSIN,big,24000,398,124,274,824,
-pipeline,Integer,FEXP,small,43796,435,158,277,824,
-pipeline,Integer,FEXP,med,43796,493,160,333,824,
-pipeline,Integer,FEXP,big,43796,464,159,305,824,
-pipeline,Integer,Load,mem,16000,340,71,269,810,
-pipeline,Integer,Store,mem,16000,294,55,239,847,
-pipeline,Integer,BRANCH,mem,8000,149,71,78,839,
-pipeline,Integer,ISET,mem,8000,239,107,132,851,
+unit,data type,Instruction,input,Faults injected,SDC total,SDC individual,SDC multiple,Hang
+Execution unit,Floating,FADD,Small,13575,553,553,0,0
+Execution unit,Floating,FADD,Common,13575,703,703,0,0
+Execution unit,Floating,FADD,Big,13575,687,687,0,0
+Execution unit,Floating,FMUL,Small,9540,443,443,0,0
+Execution unit,Floating,FMUL,Common,9540,459,459,0,0
+Execution unit,Floating,FMUL,Big,9540,368,368,0,0
+Execution unit,Floating,FMAD,Small,18735,471,471,0,22
+Execution unit,Floating,FMAD,Common,18735,385,385,0,0
+Execution unit,Floating,FMAD,Big,18735,746,746,0,0
+Execution unit,Integer,IADD,Small,1857,394,394,0,120
+Execution unit,Integer,IADD,Common,1857,392,392,0,120
+Execution unit,Integer,IADD,Big,1857,391,391,0,120
+Execution unit,Integer,IMUL,Small,1857,225,225,0,120
+Execution unit,Integer,IMUL,Common,1857,225,225,0,120
+Execution unit,Integer,IMUL,Big,1857,225,225,0,120
+Execution unit,Integer,IMAD,Small,2232,602,602,0,120
+Execution unit,Integer,IMAD,Common,2232,291,291,0,120
+Execution unit,Integer,IMAD,Big,2232,602,602,0,120
+Execution unit,Integer,FSIN,small,6842,1442,855,587,64
+Execution unit,Integer,FSIN,med,6842,1440,854,586,64
+Execution unit,Integer,FSIN,big,6842,1365,825,540,64
+Execution unit,Integer,FEXP,small,6842,1718,909,809,64
+Execution unit,Integer,FEXP,med,6842,1728,912,816,64
+Execution unit,Integer,FEXP,big,6842,1714,919,795,64
+Execution unit,Integer,Load,mem,0,0,0,0,0
+Execution unit,Integer,Store,mem,0,0,0,0,0
+Scheduler unit,Floating,FADD,Small,7290,14,5,9,34
+Scheduler unit,Floating,FADD,Common,7290,14,5,9,34
+Scheduler unit,Floating,FADD,Big,7290,14,5,9,34
+Scheduler unit,Floating,FMUL,Small,7290,11,4,7,32
+Scheduler unit,Floating,FMUL,Common,7290,11,4,7,32
+Scheduler unit,Floating,FMUL,Big,7290,11,4,7,32
+Scheduler unit,Floating,FMAD,Small,7290,8,3,5,0
+Scheduler unit,Floating,FMAD,Common,7290,8,4,4,33
+Scheduler unit,Floating,FMAD,Big,7290,8,3,5,33
+Scheduler unit,Integer,IADD,Small,7290,103,36,67,44
+Scheduler unit,Integer,IADD,Common,7290,103,36,67,44
+Scheduler unit,Integer,IADD,Big,7290,103,36,67,44
+Scheduler unit,Integer,IMUL,Small,7290,106,32,74,47
+Scheduler unit,Integer,IMUL,Common,7290,106,32,74,47
+Scheduler unit,Integer,IMUL,Big,7290,106,32,74,47
+Scheduler unit,Integer,IMAD,Small,7290,96,30,66,40
+Scheduler unit,Integer,IMAD,Common,7290,102,30,72,40
+Scheduler unit,Integer,IMAD,Big,7290,97,30,67,40
+Scheduler unit,Integer,FSIN,small,9138,42,21,21,37
+Scheduler unit,Integer,FSIN,med,9138,42,21,21,37
+Scheduler unit,Integer,FSIN,big,9138,42,21,21,37
+Scheduler unit,Integer,FEXP,small,9138,67,31,36,37
+Scheduler unit,Integer,FEXP,med,9138,67,31,36,37
+Scheduler unit,Integer,FEXP,big,9138,67,31,36,37
+Scheduler unit,Integer,Load,mem,9138,77,37,40,44
+Scheduler unit,Integer,Store,mem,9138,77,55,22,44
+Scheduler unit,Integer,BRANCH,mem,9138,39,24,53,77
+Scheduler unit,Integer,ISET,mem,9138,39,32,30,77
+pipeline,Floating,FADD,Small,43796,666,338,328,107
+pipeline,Floating,FADD,Common,43796,666,314,352,107
+pipeline,Floating,FADD,Big,43796,665,302,363,107
+pipeline,Floating,FMUL,Small,43796,435,202,233,119
+pipeline,Floating,FMUL,Common,43796,665,365,300,119
+pipeline,Floating,FMUL,Big,43796,651,351,300,119
+pipeline,Floating,FMAD,Small,43796,691,343,348,118
+pipeline,Floating,FMAD,Common,43796,689,342,347,118
+pipeline,Floating,FMAD,Big,43796,683,347,336,118
+pipeline,Integer,IADD,Small,43796,690,207,481,815
+pipeline,Integer,IADD,Common,43796,664,185,479,815
+pipeline,Integer,IADD,Big,43796,665,185,480,815
+pipeline,Integer,IMUL,Small,43796,328,96,232,823
+pipeline,Integer,IMUL,Common,43796,328,96,232,823
+pipeline,Integer,IMUL,Big,43796,568,145,423,825
+pipeline,Integer,IMAD,Small,43796,531,158,370,814
+pipeline,Integer,IMAD,Common,43796,508,138,370,814
+pipeline,Integer,IMAD,Big,43796,403,137,266,816
+pipeline,Integer,FSIN,small,24000,403,129,274,824
+pipeline,Integer,FSIN,med,17638,394,96,298,884
+pipeline,Integer,FSIN,big,24000,398,124,274,824
+pipeline,Integer,FEXP,small,43796,435,158,277,824
+pipeline,Integer,FEXP,med,43796,493,160,333,824
+pipeline,Integer,FEXP,big,43796,464,159,305,824
+pipeline,Integer,Load,mem,16000,340,71,269,810
+pipeline,Integer,Store,mem,16000,294,55,239,847
+pipeline,Integer,BRANCH,mem,8000,149,71,78,839
+pipeline,Integer,ISET,mem,8000,239,107,132,851
