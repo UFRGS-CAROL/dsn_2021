@@ -6,7 +6,6 @@ Data used in the 51st Annual IEEE/IFIP International Conference on Dependable Sy
 ## Authors
 
 - Fernando Fernandes dos Santos - Universidade Federal do Rio Grande do Sul (UFRGS)
-    - e-mail: ffsantos@inf.ufrgs.br or fernandofernandesantos@gmail.com
 - Josie E. Rodriguez Condia - Politecnico di Torino  
 - Luigi Carro - UFRGS
 - Matteo Sonza Reorda - Politecnico di Torino  
